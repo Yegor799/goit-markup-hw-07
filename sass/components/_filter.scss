@@ -1,0 +1,38 @@
+.section-list.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.section-list.buttons {
+  .item {
+    margin-right: 8px;
+  }
+}
+
+.section-list.buttons {
+  .item:last-child {
+    margin-right: 0px;
+  }
+}
+
+.section-list {
+  .section-content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: $title-text-color;
+    font-size: 16px;
+    line-height: 1.88;
+  }
+}
+
+.section-list {
+  .button:hover,
+  .button:focus {
+    color: $primary-white-color;
+    background-color: $accent-color;
+    cursor: pointer;
+  }
+}
